@@ -314,3 +314,35 @@ footer {
     }
 
 }
+
+h2{ 
+    display: block auto;
+    padding: 15px 30px;
+    margin-top: 30px;
+    font-size: 1.25rem;
+    color:  rgb(23, 84, 71);
+    text-decoration: none;
+    transition: transform 0.3s;
+    background: bisque;
+    border: azure;
+    border-radius: 60px;
+}
+.butn {
+    
+    display: block auto;
+    padding: 15px 30px;
+    margin-top: 30px;
+    font-size: 1.25rem;
+    border: 2px solid white;
+    border-radius: 30px;
+    background-color: bisque;
+    color: rgb(26, 15, 65);
+    text-decoration: none;
+    transition: transform 0.3s;
+
+}
+.butn:hover {
+    background-color:rgb(0, 0, 0);
+    color: white;
+    transform: scale(1.05);
+}
